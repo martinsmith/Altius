@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: mx_contentBlock
+instructions: null
+name: 'Content Block'
+searchable: false
+settings:
+  createButtonLabel: 'New Block Section'
+  entryTypes:
+    - 9ed5cd74-29c0-4c5d-8808-b6112f366f16 # New Sub-Section Intro
+    - c828ce68-9b02-4122-a29b-55a93595bd48 # Text / Image
+    - d875cc48-f7f2-4c0e-876d-754ae446746a # Big Parallax Image
+    - 5d49fa5b-f75d-4770-a7c1-932c914abc23 # Accordion
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

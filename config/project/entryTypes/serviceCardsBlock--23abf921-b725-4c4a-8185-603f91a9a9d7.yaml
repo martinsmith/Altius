@@ -1,0 +1,93 @@
+color: yellow
+fieldLayouts:
+  7e74a975-b548-46ab-ae55-ddb86dcf5c97:
+    cardView:
+      - 'layoutElement:87007a97-a561-4828-a248-0ea65f7c2757'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T14:46:12+01:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 378d94b8-957c-4828-809c-5d03b929a634
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T14:46:12+01:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: cardTitle
+            instructions: null
+            label: 'Card Title'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87007a97-a561-4828-a248-0ea65f7c2757
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T14:46:12+01:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: null
+            instructions: null
+            label: 'Card Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2f87eb34-9b57-4c1b-a9ea-b0de00524e0d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T14:46:12+01:00'
+            elementCondition: null
+            fieldUid: 83076c5f-0433-439a-920a-6fed25d4eafb
+            handle: null
+            instructions: null
+            label: 'Link to page'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb490174-98b0-4b8d-8a95-c9ac3ca59912
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b9a765cf-1e97-45a6-9ac0-49b378e2d3a2
+        userCondition: null
+handle: serviceCardsBlock
+hasTitleField: false
+icon: ''
+name: 'Service Cards Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,245 @@
+color: null
+fieldLayouts:
+  c43f394b-b47e-4002-8824-66c8ace3b589:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:18:19+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: 'Job Title'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e20b2e70-684e-488b-bdcc-9ddbd70481b0
+            userCondition: null
+            warning: null
+            width: 75
+          -
+            dateAdded: '2024-09-17T14:05:15+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_jobCode
+            instructions: null
+            label: 'Job Code (Internal Only)'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b32842d4-7846-4c68-afdd-6761c2370929
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T13:42:48+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_salary
+            instructions: null
+            label: Salary
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 532341e4-d529-4ff9-83b7-dd865669ac66
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:42:48+00:00'
+            elementCondition: null
+            fieldUid: 828d697f-6d07-4af1-9b83-fef2467ee74d # Text Block
+            handle: fd_jobDescription
+            instructions: null
+            label: 'Job Description'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a1b1f56d-7e14-4e99-9854-6cc3c324560a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:42:48+00:00'
+            elementCondition: null
+            fieldUid: b46152df-c041-49fa-8228-7fb3fdbb71e9 # Job Type
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6796308d-e146-4538-9655-04811862eb06
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T14:44:36+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_based
+            instructions: null
+            label: Based
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5fa0f66-6086-4446-9c77-95cc4028135b
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T13:42:48+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_workingLocation
+            instructions: null
+            label: 'Working Location'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8432f16-704d-43bc-8365-bb1235a79fe8
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T14:08:36+00:00'
+            elementCondition: null
+            fieldUid: 304e3a5a-1efa-4c46-8f07-579c54395284 # Hours
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 79a6805c-21de-4088-b762-b591eb5332c9
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:42:48+00:00'
+            elementCondition: null
+            fieldUid: 2c474a01-b3ae-4ba9-a8c2-a524106e7284 # Job Benefits
+            handle: null
+            instructions: null
+            label: Benefits
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36e4f637-421f-45e7-a9ff-fdc09eacca9b
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T14:01:32+00:00'
+            elementCondition: null
+            fieldUid: fc5f89af-2598-4cad-83f6-26cbae32bff9 # Criteria
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 002fc677-6753-4209-8001-c21eb07fc58e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-18T14:08:32+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: e97d27af-8f67-4cae-b86b-a97cef57643a
+            userCondition: null
+          -
+            dateAdded: '2024-09-19T07:51:13+00:00'
+            elementCondition: null
+            heading: 'Who should applications go to?'
+            type: craft\fieldlayoutelements\Heading
+            uid: 02cdcfab-037c-47b1-b048-1e3752e52671
+            userCondition: null
+          -
+            dateAdded: '2024-09-18T14:08:32+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_email
+            instructions: null
+            label: 'Email address for applications'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35dc4f78-2121-441b-abbe-bb6ad57aaa1e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-19T07:39:38+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_buttonText
+            instructions: null
+            label: 'Email Button Test'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c9eb8f53-b236-4974-992f-280cd90e3442
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-19T07:51:13+00:00'
+            dismissible: false
+            elementCondition: null
+            style: tip
+            tip: "If no email address or button text is added then the button will default to:\r\n- scott.crossley@caledonianliftsmanchester.co.uk\r\n- Please CLICK HERE to send your C.V. along with a cover note."
+            type: craft\fieldlayoutelements\Tip
+            uid: c30daf70-d8f8-4c41-a14c-856103fc4119
+            userCondition: null
+        name: Content
+        uid: e8d2f1bf-e1d3-45c3-b0f2-166100668df8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-18T15:19:24+00:00'
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2681d6c9-c34c-4378-a9c2-8682ec7eab90
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: 28e7aa1c-4b8c-424b-933a-97040b6e42cf
+        userCondition: null
+handle: careers_sectionItems
+hasTitleField: true
+icon: ''
+name: 'Post a Job'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

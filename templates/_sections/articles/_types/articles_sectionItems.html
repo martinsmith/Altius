@@ -1,0 +1,33 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/articles.css">
+{% endblock %}
+
+{% block content %}
+<div>
+
+    <section>
+        <div>
+            <div>
+                <h1>{{ entry.title }}</h1>
+            </div>
+            <div>
+                {{ entry.articleText }}
+            </div>
+            <div>
+                <img src="{{ entry.articleImage.one.url }}" alt="{{ entry.articleImage.one.title }}">
+            </div>
+            <div>
+                <h2>More Articles...</h2>
+                {% set level2Entries = craft.entries.section('articles').level(2).id('not ' ~ entry.id) %}
+                <ul>
+                    {% for entry in level2Entries %}
+                    <li><h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

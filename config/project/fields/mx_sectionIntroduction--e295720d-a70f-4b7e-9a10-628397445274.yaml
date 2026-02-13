@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: mx_sectionIntroduction
+instructions: null
+name: 'Section Introduction'
+searchable: false
+settings:
+  createButtonLabel: 'Add Intro'
+  entryTypes:
+    - 1c4d6320-4d2d-4112-bd71-b4e2cd5c7860 # Section Intro
+  includeTableView: false
+  maxEntries: 1
+  minEntries: null
+  pageSize: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: accordionContent
+instructions: null
+name: 'Sector Page Builder - Accordion - Accordion Content'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: 'New Accordion Panel'
+  entryTypes:
+    - d9238bd6-3d3f-4b1f-9bce-385127a5920b # Sector Page Builder - Accordion - Accordion Content Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: false
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

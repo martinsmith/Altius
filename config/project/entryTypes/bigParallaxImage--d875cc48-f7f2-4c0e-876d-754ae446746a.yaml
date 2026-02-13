@@ -1,0 +1,37 @@
+color: null
+fieldLayouts:
+  08e33625-336d-407c-aeb1-b3df4fc4e7bb:
+    cardView:
+      - 'layoutElement:a95ab1ab-6d10-41f8-aad5-fa903d0dfce2'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ebf8c9ae-9a23-43b3-8999-ee29b0819785
+            handle: null
+            instructions: null
+            label: Image
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a95ab1ab-6d10-41f8-aad5-fa903d0dfce2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 01552e42-0f81-485b-97a6-c3bcc38a9805
+        userCondition: null
+    thumbFieldKey: 'layoutElement:a95ab1ab-6d10-41f8-aad5-fa903d0dfce2'
+handle: bigParallaxImage
+hasTitleField: false
+icon: null
+name: 'Big Parallax Image'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

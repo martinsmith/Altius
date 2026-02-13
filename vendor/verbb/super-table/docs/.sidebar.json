@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Get Started",
+        "collapsable": false,
+        "children": [
+            "get-started/installation-setup"
+        ]
+    }
+]

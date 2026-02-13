@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: testimonials
+instructions: null
+name: Testimonials
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: 'New Testimonial'
+  entryTypes:
+    - 18f2db44-e277-4d9a-b498-64ad6512d7ca # Testimonials Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

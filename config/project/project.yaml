@@ -1,0 +1,528 @@
+dateModified: 1770989858
+elementSources:
+  craft\elements\Entry:
+    -
+      defaultSort:
+        - title
+        - asc
+      disabled: false
+      key: 'single:e7abf76a-13c5-415b-8804-d40296722d2b' # Homepage
+      tableAttributes:
+        - link
+        - section
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      defaultViewMode: ''
+      disabled: false
+      key: 'section:9762ed7d-306c-4d1b-bf4b-12cac5c241b0' # Services
+      tableAttributes:
+        - section
+        - 'field:98ba4066-3226-4e5f-b54c-f5e9e3e71062' # SEO Information
+        - link
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:b42b6ad6-c86d-481c-ad59-978be584c907' # Sectors
+      tableAttributes:
+        - section
+        - link
+      type: native
+    -
+      key: 'single:7628f70c-ef64-41f2-bb63-0a6442986aff' # Why Us
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:4d63d9e7-3c27-4e26-a1ce-af7190188b4f' # Team
+      tableAttributes:
+        - section
+        - link
+        - 'field:98ba4066-3226-4e5f-b54c-f5e9e3e71062' # SEO Information
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:90416467-1392-4fa0-a43a-98b492e0701a' # Articles
+      tableAttributes:
+        - section
+        - link
+        - 'field:98ba4066-3226-4e5f-b54c-f5e9e3e71062' # SEO Information
+      type: native
+    -
+      defaultSort:
+        - structure
+        - asc
+      disabled: false
+      key: 'section:2f76b0ac-b5b3-43cf-ba27-4ab697f18713' # Careers
+      tableAttributes:
+        - status
+        - postDate
+        - expiryDate
+        - link
+        - 'fieldInstance:b32842d4-7846-4c68-afdd-6761c2370929'
+      type: native
+    -
+      key: 'single:bbd50b1e-8c6c-4708-acc1-ac671f6dc2d4' # Contact
+      type: native
+    -
+      defaultSort:
+        - postDate
+        - desc
+      defaultViewMode: ''
+      disabled: true
+      key: '*'
+      tableAttributes:
+        - section
+        - postDate
+        - expiryDate
+        - link
+      type: native
+    -
+      heading: 'Thank You URLs'
+      type: heading
+email:
+  fromEmail: admin@caledonianliftsmanchester.co.uk
+  fromName: 'Caledonian Lifts Manchester Ltd'
+  replyToEmail: admin@caledonianliftsmanchester.co.uk
+  template: null
+  transportSettings:
+    host: smtp.postmarkapp.com
+    password: dbf04825-e512-4ec0-9081-2447604dea49
+    port: '25'
+    useAuthentication: '1'
+    username: dbf04825-e512-4ec0-9081-2447604dea49
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  cvs:
+    hasUrls: false
+    name: "CV's"
+    settings:
+      path: cvs
+    type: craft\fs\Local
+    url: null
+  images:
+    hasUrls: true
+    name: Images
+    settings:
+      path: images
+    type: craft\fs\Local
+    url: $IMAGES_URL
+meta:
+  __names__:
+    0a7e8a33-fe69-4bc4-8742-3162ceea7dfb: 'Thank You Success URL' # Thank You Success URL
+    0a393978-e55a-4280-a69a-d1c5047ef6e6: 'Basic Rich Text' # Basic Rich Text
+    1c4d6320-4d2d-4112-bd71-b4e2cd5c7860: 'Section Intro' # Section Intro
+    2c474a01-b3ae-4ba9-a8c2-a524106e7284: 'Job Benefits' # Job Benefits
+    2f76b0ac-b5b3-43cf-ba27-4ab697f18713: Careers # Careers
+    2f555ca1-7a5e-4f57-9273-ba026e11f7c8: Simple # Simple
+    4a2b1065-b00c-401a-85be-ff6a35f5eb03: 'Content Block' # Content Block
+    4abb3c30-791e-42da-9970-5510854d4ecb: 'Service Cards' # Service Cards
+    4d63d9e7-3c27-4e26-a1ce-af7190188b4f: Team # Team
+    4ff89192-ffa3-4fc7-99fc-9714ea2c8bc7: FAQs # FAQs
+    05b24267-ef92-48a8-870a-178896a54ba3: Contact # Contact
+    05bb7420-f41b-43c3-aeab-000a50cf8e8a: 'Staff Member' # Staff Member
+    5d49fa5b-f75d-4770-a7c1-932c914abc23: Accordion # Accordion
+    5e7a9fb8-2b6a-4050-9a18-629d65da8ef1: 'Overview Page' # Overview Page
+    5e98dd89-e073-4bda-890e-36b647288eb6: FAQs # FAQs
+    6d075772-e174-4c6e-8bd8-b74492d8b68c: 'Super Simple' # Super Simple
+    6f2dbcfd-2b90-4b8a-8fb1-f15c5d85edbe: 'Add a New Service' # Add a New Service
+    07c7a1e1-6257-42d1-9d3c-9471a5226e26: 'Add a New Sector' # Add a New Sector
+    7d7b349e-bfee-48a0-8cf4-7a0eefc10c76: 'Services - Overview Page' # Services - Overview Page
+    8b71b520-8834-4f29-b0be-6aef0f288e42: 'Article Image' # Article Image
+    8ee498d9-4861-45a3-8e90-1470ac09bbf7: 'Information Block' # Information Block
+    9a61ea49-f29c-419d-a6cf-f130c95d32a8: 'Info Blocks' # Info Blocks
+    9ed5cd74-29c0-4c5d-8808-b6112f366f16: 'New Sub-Section Intro' # New Sub-Section Intro
+    18f2db44-e277-4d9a-b498-64ad6512d7ca: 'Testimonials Block' # Testimonials Block
+    23abf921-b725-4c4a-8185-603f91a9a9d7: 'Service Cards Block' # Service Cards Block
+    25f06514-2327-4672-86ac-e0a60aba0034: 'Articles Landing Page' # Articles Landing Page
+    45a8bbed-1edd-4c3e-a925-95ea582c86bd: 'Information Blocks' # Information Blocks
+    49d3d537-a9f7-479a-a98f-12f75fbef05a: Images # Images
+    54d95a50-7514-4086-89df-eb50de3fc17e: 'Sectors Block' # Sectors Block
+    58abb35d-e3ad-40c1-a821-525460e8cd08: 'New Article' # New Article
+    70d46e89-cdf4-4e82-98ee-00455d039d33: 'Article Text' # Article Text
+    75b3ef99-b0fc-43fb-8697-c8a8b03abdb8: Testimonials # Testimonials
+    87f5b40a-7044-4f5f-afdf-1c5049bd622c: 'Caledonian Lifts' # Caledonian Lifts
+    98ba4066-3226-4e5f-b54c-f5e9e3e71062: 'SEO Information' # SEO Information
+    270ade6f-933d-4db2-83e6-3f2ef650b449: 'Careers Landing' # Careers Landing
+    304e3a5a-1efa-4c46-8f07-579c54395284: Hours # Hours
+    563b6fd0-4809-4932-aaca-5ef30724ed7c: "CV's" # CV's
+    748a08c2-6c15-4867-bb88-f7882f640395: 'Post a Job' # Post a Job
+    793d9983-213a-4cbd-ad28-8d2f692eee3a: 'Alternative Schema' # Alternative Schema
+    828d697f-6d07-4af1-9b83-fef2467ee74d: 'Text Block' # Text Block
+    5354db12-3390-44d2-9931-041ad25806be: 'Contact Form' # Contact Form
+    7628f70c-ef64-41f2-bb63-0a6442986aff: 'Why Us' # Why Us
+    9762ed7d-306c-4d1b-bf4b-12cac5c241b0: Services # Services
+    42542baa-070e-4f48-b5ce-fbd2819883a5: 'Why Us' # Why Us
+    59062f59-c994-4a41-951e-f45aba5fddb5: 'Staff Photo' # Staff Photo
+    87090e86-6371-4cbe-a238-d5419166660a: 'Public Schema' # Public Schema
+    691104c8-94c6-4a1f-a978-8ef86ecc3a32: Articles # Articles
+    04918528-c76c-4e73-9f1c-5aeae2c2db87: 'Sector Page Builder - Info Blocks - Blocks Block' # Sector Page Builder - Info Blocks - Blocks Block
+    15039951-4448-4217-bbee-a2666a2ab54d: Hours # Hours
+    90416467-1392-4fa0-a43a-98b492e0701a: Articles # Articles
+    aea2570e-71e8-49d8-bf72-d4c2bb30ce4b: 'Plain Text' # Plain Text
+    af51211b-76af-4f5e-a5a0-478a6bf4ae54: 'Full Width Image' # Full Width Image
+    b42b6ad6-c86d-481c-ad59-978be584c907: Sectors # Sectors
+    b5798b01-f931-4835-937e-c740ea058afa: 'FAQ Section' # FAQ Section
+    b46152df-c041-49fa-8228-7fb3fdbb71e9: 'Job Type' # Job Type
+    bbd50b1e-8c6c-4708-acc1-ac671f6dc2d4: Contact # Contact
+    bf1a60fc-fc10-4ed8-95b0-95abbb63e752: 'Super Simple Text' # Super Simple Text
+    c3f08b56-dac0-4937-b476-65214d227444: 'Client Logos' # Client Logos
+    c828ce68-9b02-4122-a29b-55a93595bd48: 'Text / Image' # Text / Image
+    cae01097-4833-408c-a8b1-bd3f75a616c7: 'Ultra Basic' # Ultra Basic
+    d8ccd2a3-51c3-4a4d-9111-5bde54291462: Homepage # Homepage
+    d875cc48-f7f2-4c0e-876d-754ae446746a: 'Big Parallax Image' # Big Parallax Image
+    d9238bd6-3d3f-4b1f-9bce-385127a5920b: 'Sector Page Builder - Accordion - Accordion Content Block' # Sector Page Builder - Accordion - Accordion Content Block
+    dc570c1c-57f3-44bc-b8c9-474ecd8c829c: 'Info Blocks' # Info Blocks
+    df3091e8-0e17-4772-ad23-9334ed213678: New # New
+    dfc5ce4c-aa39-4a85-9fd6-81919a96c6aa: 'Sector Page Builder - Accordion - Accordion Content' # Sector Page Builder - Accordion - Accordion Content
+    e0b3ceec-5939-437b-9bdf-e49a8a1abd29: Sectors # Sectors
+    e035d61f-5182-4f35-a0df-1fc0e611cd58: 'Sector Page Builder' # Sector Page Builder
+    e7abf76a-13c5-415b-8804-d40296722d2b: Homepage # Homepage
+    e295720d-a70f-4b7e-9a10-628397445274: 'Section Introduction' # Section Introduction
+    f53d0986-7780-467d-af7d-285af1620e61: 'Sector Page Builder - Info Blocks - Blocks' # Sector Page Builder - Info Blocks - Blocks
+    f68f3e2f-2164-4b5d-8a45-44af27a92365: Testimonials # Testimonials
+    fc5f89af-2598-4cad-83f6-26cbae32bff9: Criteria # Criteria
+    fe4e75c8-43fa-445f-a134-622af7819f98: 'Caledonian Lifts' # Caledonian Lifts
+    ff88a52b-69c5-4ea2-bf35-af53cc987140: 'Team Page' # Team Page
+plugins:
+  child-me:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  dashboard-begone:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  datastone-obfuscate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  expanded-singles:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: MH9NWJDERBFPGGYF4XV2QBA8
+    schemaVersion: 3.4.12
+    settings:
+      ajaxTimeout: 10
+      alertEmails: null
+      captchas:
+        __assoc__:
+          -
+            - recaptcha
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Recaptcha
+                -
+                  - enabled
+                  - '1'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - recaptcha
+                      -
+                        - secretKey
+                        - 6LfdpTcpAAAAAI7DaWxY_aGsOx6agNe-aEV2pfqe
+                      -
+                        - siteKey
+                        - 6LfdpTcpAAAAAAIpBIEzinQyJ6ZwBAf1_vnLuDS8
+                      -
+                        - type
+                        - v3
+                      -
+                        - size
+                        - normal
+                      -
+                        - theme
+                        - light
+                      -
+                        - badge
+                        - bottomright
+                      -
+                        - language
+                        - en-GB
+                      -
+                        - minScore
+                        - 0.5
+                      -
+                        - scriptLoadingMethod
+                        - asyncDefer
+          -
+            - hcaptcha
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Hcaptcha
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - hcaptcha
+                      -
+                        - size
+                        - normal
+                      -
+                        - theme
+                        - light
+                      -
+                        - language
+                        - en
+                      -
+                        - minScore
+                        - 0.5
+                      -
+                        - scriptLoadingMethod
+                        - asyncDefer
+          -
+            - friendlyCaptcha
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\FriendlyCaptcha
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - friendlyCaptcha
+                      -
+                        - language
+                        - en
+          -
+            - turnstile
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Turnstile
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - turnstile
+                      -
+                        - scriptLoadingMethod
+                        - asyncDefer
+          -
+            - duplicate
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Duplicate
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - duplicate
+          -
+            - honeypot
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Honeypot
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - honeypot
+          -
+            - javascript
+            -
+              __assoc__:
+                -
+                  - type
+                  - verbb\formie\integrations\captchas\Javascript
+                -
+                  - enabled
+                  - '0'
+                -
+                  - saveSpam
+                  - true
+                -
+                  - settings
+                  -
+                    __assoc__:
+                      -
+                        - handle
+                        - javascript
+      defaultDateDisplayType: calendar
+      defaultDateTime: null
+      defaultDateValueOption: ''
+      defaultEmailTemplate: ''
+      defaultFileUploadVolume: ''
+      defaultFormTemplate: ''
+      defaultInstructionsPosition: verbb\formie\positions\AboveInput
+      defaultLabelPosition: verbb\formie\positions\AboveInput
+      defaultPage: forms
+      emptyValuePlaceholder: 'No response.'
+      enableBackSubmission: true
+      enableCsrfValidationForGuests: true
+      enableLargeFieldStorage: false
+      enableUnloadWarning: true
+      includeDraftElementUsage: false
+      includeRevisionElementUsage: false
+      maxIncompleteSubmissionAge: 30
+      maxSentNotificationsAge: 30
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      pluginName: Formie
+      queuePriority: null
+      saveSpam: true
+      sendEmailAlerts: false
+      sentNotifications: true
+      spamBehaviour: showSuccess
+      spamBehaviourMessage: ''
+      spamEmailNotifications: false
+      spamKeywords: ''
+      spamLimit: 500
+      useQueueForIntegrations: true
+      useQueueForNotifications: false
+      validateCustomTemplates: true
+  obfuscator:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  postmark:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: QUX3DO5OLW1GIR2T5EOMOK3M
+    schemaVersion: 3.0.13
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - "'self'"
+      devModeCpTitlePrefix: '🚧⚙ '
+      devModeTitlePrefix: '🚧 '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableDebugToolbarPanel: true
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: 'SEO Settings'
+      regenerateSitemapsAutomatically: true
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - twitter
+        - linkedin
+      siteGroupsSeparate: true
+      siteUrlOverride: ''
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: true
+      truncateTitleTags: true
+      xDefaultSite: 0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 4.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Caledonian Lifts Manchester Ltd'
+  retryDuration: null
+  schemaVersion: 5.9.0.8
+  timeZone: Europe/London
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

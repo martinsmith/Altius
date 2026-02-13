@@ -1,0 +1,25 @@
+columnSuffix: boigmufm
+handle: seoInformation
+instructions: null
+name: 'SEO Information'
+searchable: false
+settings:
+  elementDisplayPreviewType: google
+  facebookEnabledFields:
+    - seoPreview
+  facebookTabEnabled: '1'
+  generalEnabledFields:
+    - seoPreview
+    - mainEntityOfPage
+    - seoTitle
+    - seoDescription
+    - seoImage
+  generalTabEnabled: '1'
+  sitemapEnabledFields: ''
+  sitemapTabEnabled: ''
+  twitterEnabledFields:
+    - seoPreview
+  twitterTabEnabled: '1'
+translationKeyFormat: null
+translationMethod: none
+type: nystudio107\seomatic\fields\SeoSettings

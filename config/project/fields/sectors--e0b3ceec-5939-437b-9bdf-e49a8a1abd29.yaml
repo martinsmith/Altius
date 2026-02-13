@@ -1,0 +1,21 @@
+columnSuffix: mlgramqm
+handle: sectors
+instructions: null
+name: Sectors
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: 'New Sector'
+  entryTypes:
+    - 54d95a50-7514-4086-89df-eb50de3fc17e # Sectors Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

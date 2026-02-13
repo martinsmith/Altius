@@ -1,0 +1,40 @@
+{% import '_includes/forms' as forms %}
+
+{% extends 'formie/_formfields/field' %}
+
+{% block field %}
+
+{# Keep track of the outer date field #}
+{% set dateField = field %}
+
+{% if field.displayType == 'calendar' or field.displayType == 'datePicker' %}
+    {% if field.getIsDate() or field.getIsDateTime() %}
+        {% include 'formie/_formfields/date/_date' %}
+    {% endif %}
+
+    {% if field.getIsTime() or field.getIsDateTime() %}
+        {% include 'formie/_formfields/date/_time' %}
+    {% endif %}
+{% endif %}
+
+{% if field.displayType == 'dropdowns' or field.displayType == 'inputs' %}
+    {% namespace field.handle %}
+        {% for row in field.getRows(false) %}
+            <div class="fui-row">
+                {% for field in row.getFields(false) %}
+                    {# Update the namespace for the field #}
+                    {% do field.setParentField(dateField) %}
+                    
+                    <div class="fui-col-auto">
+                        {% set value = element.getFieldValue(field.fieldKey) ?? field.normalizeValue(field.getDefaultValue(), element) %}
+                        {% set errors = element.getErrors(field.fieldKey) ?? [] %}
+
+                        {{ field.getCpInputHtml(value, element) }}
+                    </div>
+                {% endfor %}
+            </div>
+        {% endfor %}
+    {% endnamespace %}
+{% endif %}
+
+{% endblock %}

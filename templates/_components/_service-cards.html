@@ -1,0 +1,16 @@
+<div>
+    {% set serviceCardRef = craft.entries.section('homepage').one() %}
+
+    {% if serviceCardRef %}
+        <ul>
+            {% for row in serviceCardRef.serviceCards.all() %}
+                <li>
+                    <a href="{{ row.linkToPage.one.url }}">
+                        <h2>{{ row.cardTitle }}</h2>
+                        <p>{{ row.fd_plainText }}</p>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</div>

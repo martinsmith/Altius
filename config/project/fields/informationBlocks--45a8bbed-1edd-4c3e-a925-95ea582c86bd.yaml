@@ -1,0 +1,20 @@
+columnSuffix: null
+handle: informationBlocks
+instructions: null
+name: 'Information Blocks'
+searchable: false
+settings:
+  createButtonLabel: null
+  entryTypes:
+    - 8ee498d9-4861-45a3-8e90-1470ac09bbf7 # Information Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

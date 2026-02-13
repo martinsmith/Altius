@@ -1,0 +1,22 @@
+columnSuffix: fiixqqdz
+contentColumnType: text
+handle: articleText
+instructions: null
+name: 'Article Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: 691104c8-94c6-4a1f-a978-8ef86ecc3a32 # Articles
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

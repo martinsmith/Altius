@@ -1,0 +1,8 @@
+columnSuffix: null
+handle: alternativeSchema
+instructions: 'MUST be valid JSON. Field will default back to standard SEO Settings JSON when completely empty.'
+name: 'Alternative Schema'
+searchable: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Json

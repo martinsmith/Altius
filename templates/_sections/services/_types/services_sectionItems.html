@@ -1,0 +1,43 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/services.css">
+{% endblock %}
+
+{% block content %}
+
+
+
+<div>
+
+    <div>
+        <div style="background-image: url('{{ entry.heroImage.one.url() }}')">
+        </div>
+        <div></div>
+        <div>
+            <h1>{{ entry.heroTitle }}</h1>
+            <p>{{ entry.heroText }}</p>
+        </div>
+    </div>
+
+    <section>
+        <div>
+            <div>
+                {{ entry.textBlock }}
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            {% include '_components/_service-panels' %}
+        </div>
+    </section>
+
+    {% include '_components/_parallax' %}
+
+    {% include '_components/_faq-section' %}
+
+
+</div>
+{% endblock %}

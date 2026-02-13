@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 748a08c2-6c15-4867-bb88-f7882f640395 # Post a Job
+  - 270ade6f-933d-4db2-83e6-3f2ef650b449 # Careers Landing
+handle: careers
+maxAuthors: 1
+name: Careers
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: _sections/careers/_entry.html
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: null
+  uid: e8380d08-1f42-4915-bdfe-60569776cedd
+type: structure

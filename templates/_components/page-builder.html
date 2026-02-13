@@ -1,0 +1,54 @@
+    {% for block in entry.sectorPageBuilder.all() %}
+      {% switch block.type %}
+          {% case 'sectionIntroduction' %}
+          <section>
+          <div>
+            <h2>{{ block.sectionTitle }}</h2>
+            {{ block.sectionIntro }}
+          </div>
+          {% case 'infoBlocks' %}
+
+          <div>
+            <ul>
+                {% for item in block.infoBlock %}
+                <li>
+                        <div>
+                            <h2>{{ item.blockTitle }}</h2>
+                            {{ item.blockText }}
+                        </div>
+                        <div>
+                            {% if item.blockImage|length %}
+                            <img src="{{ item.blockImage.one.url() }}" alt="{{ item.blockImage.one.title }}">
+                            {% endif %}
+                        </div>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+        </section>
+
+          {% case 'accordion' %}
+
+          <ul>
+            {% for item in block.accordionContent %}
+            <li>
+              <div>
+                {{ item.accordionTitle }}
+              </div>
+              <div>
+                <div>{{ item.accordionText }}</div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </section>
+
+          {% case 'bigParallaxImage' %}
+          {% if block.image.one() %}
+          <div>
+            <div style="background-image: url('{{ block.image.one().url() }}');"></div>
+        </div>
+          {% endif %}
+      {% endswitch %}
+    {% endfor %}
+    

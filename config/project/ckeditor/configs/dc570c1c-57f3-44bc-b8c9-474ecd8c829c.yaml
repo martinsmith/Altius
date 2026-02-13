@@ -1,0 +1,7 @@
+headingLevels: false
+name: 'Info Blocks'
+toolbar:
+  - bold
+  - italic
+  - bulletedList
+  - link

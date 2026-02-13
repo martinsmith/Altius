@@ -1,0 +1,139 @@
+color: null
+fieldLayouts:
+  90627632-ae36-488c-a58c-dc681ace1539:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: 'Staff Name'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 77c535f2-7f78-4188-b528-c94a74f420f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: 59062f59-c994-4a41-951e-f45aba5fddb5 # Staff Photo
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 95e6e9ae-c604-4573-bb39-888d86a3d96e
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: staffPosition
+            instructions: null
+            label: 'Staff Position'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6135df72-28bf-49ab-9256-781cd74cb3a7
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: staffContactNumber
+            instructions: null
+            label: 'Staff Contact Number'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3653608-cf20-43e4-b9a8-ab92ec6e8174
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: staffEmailAddress
+            instructions: null
+            label: 'Staff Email Address'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 36381dbc-9c3e-40e0-8d8f-c0875410e0e0
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: 828d697f-6d07-4af1-9b83-fef2467ee74d # Text Block
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e0f1f47-e2c6-41f6-b9b8-eca5d3236d01
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f2ed119c-828c-404e-9bce-db7d5778f0ac
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-17T14:46:13+01:00'
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 25053cf9-10bf-43e4-a005-f2443ed5e453
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: 8436f144-2c41-4154-a451-48051af3353a
+        userCondition: null
+handle: team_sectionItems
+hasTitleField: true
+icon: user-group
+name: 'Staff Member'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

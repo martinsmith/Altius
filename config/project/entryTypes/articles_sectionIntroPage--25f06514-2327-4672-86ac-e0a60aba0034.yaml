@@ -1,0 +1,81 @@
+fieldLayouts:
+  04cc5aef-3aad-43d1-8ccf-4bbfb604f760:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 91dfbbdf-89e6-4593-915f-d83292d81bd8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d527d2a8-f051-4b09-ace2-7ec5cdf436f5
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: af51211b-76af-4f5e-a5a0-478a6bf4ae54 # Full Width Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b158ded1-a725-4c79-a132-b789e49e6706
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bdcde8ab-42b6-4a82-952f-1e68017cb94c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc801e1c-3ac3-4832-8c4d-460f1d94e41e
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: 3e50ed71-97ff-479c-ba28-233088cd6a5f
+        userCondition: null
+handle: articles_sectionIntroPage
+hasTitleField: true
+name: 'Articles Landing Page'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

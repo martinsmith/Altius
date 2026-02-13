@@ -1,0 +1,225 @@
+color: null
+description: null
+fieldLayouts:
+  1933719f-d619-4ecb-8d53-c1d7bf98f797:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: bd21381b-2611-4355-bca2-5009b9ce2eb6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: c40bd917-3fb0-4ec7-a2b1-5e65a9a7a8d5
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0392e2de-2bdb-4e50-ba2c-0a715e112283
+            handle: heroImage
+            instructions: null
+            label: 'Hero Image'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4300755b-ae21-485b-9ee6-fd5631c0ae8b
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroTitle
+            instructions: null
+            label: 'Hero Title'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0618300c-47d7-411b-bdf8-cb1298c924df
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroText
+            instructions: null
+            label: 'Hero Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63b48972-067b-42c3-b2ec-ca699b7866cb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 1c2a25f8-6dbf-4950-8ae8-206ed3148915
+            userCondition: null
+          -
+            dateAdded: '2024-09-27T13:50:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_sectorIntro
+            instructions: null
+            label: 'Sector Introduction'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ec2286cc-c1e9-45b9-8098-e5bc46c15dff
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T13:50:44+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bf1a60fc-fc10-4ed8-95b0-95abbb63e752 # Super Simple Text
+            handle: fd_sectorIntroText
+            instructions: null
+            label: 'Sector Intro Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1acb1aba-0995-4385-ac0b-6fc617785525
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T13:10:18+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 4a2b1065-b00c-401a-85be-ff6a35f5eb03 # Content Block
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ad009202-3fbf-4c5f-8f5a-d0fb7d15ec83
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-08-22T15:40:59+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: ecb07261-32ca-4634-afaf-494bdfdebc33
+            userCondition: null
+          -
+            dateAdded: '2025-08-22T15:40:59+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b5798b01-f931-4835-937e-c740ea058afa # FAQ Section
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04a426a7-24bc-4834-8773-88f9b60c7180
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ab58bdb4-e9c4-417c-8df1-fe65fc53055d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94717cdd-f1d2-486f-adf3-86adda4444fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-23T13:40:37+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 793d9983-213a-4cbd-ad28-8d2f692eee3a # Alternative Schema
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f208d62f-26c4-4656-8a4d-986370b9f45b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-23T13:16:49+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 97c83234-c29d-4007-9c40-ad6c54a1cfb6
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c197885-1125-4a14-b085-2173b0c5d9bd
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: c51efb9f-88c6-47fe-b791-adb06dbb37d8
+        userCondition: null
+handle: sectors_sectionItems
+hasTitleField: true
+icon: null
+name: 'Add a New Sector'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

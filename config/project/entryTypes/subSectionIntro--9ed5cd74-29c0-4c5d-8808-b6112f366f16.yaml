@@ -1,0 +1,79 @@
+color: null
+fieldLayouts:
+  2008758c-9f76-4da5-bf49-91a6abffa12c:
+    cardView:
+      - 'layoutElement:615f412b-ae3b-4c3d-8c2a-38bb2815d363'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:46:13+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9102b072-2a40-4fe3-845a-5e5f62029fa7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:46:13+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: sectionTitle
+            instructions: null
+            label: 'Sub-Section Title'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 615f412b-ae3b-4c3d-8c2a-38bb2815d363
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:46:13+00:00'
+            elementCondition: null
+            fieldUid: cbaf71b5-75c1-4593-9f45-4113e7c5207e
+            handle: sectionIntro
+            instructions: null
+            label: 'Sub-Section Intro'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 02f01af8-c5c5-4805-93e1-36d03ea1ec4a
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c1e1d4dc-4a75-4afd-968d-969627732f06
+        userCondition: null
+handle: subSectionIntro
+hasTitleField: false
+icon: ''
+name: 'New Sub-Section Intro'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

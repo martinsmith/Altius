@@ -1,0 +1,55 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/sectors.css">
+
+{% endblock %}
+
+{% block content %}
+<div>
+
+    <div>
+        <div style="background-image: url('{{ entry.heroImage.one.url() }}')">
+        </div>
+        <div></div>
+        <div>
+            <h1>{{ entry.heroTitle }}</h1>
+            <p>{{ entry.heroText }}</p>
+        </div>
+    </div>
+
+
+    <section>
+    {% if entry.fd_sectorIntro or entry.fd_sectorIntroText %}
+            <div>
+                <h2>{{ entry.fd_sectorIntro }}</h2>
+                {{ entry.fd_sectorIntroText }}
+            </div>
+    {% endif %}
+
+    {% include '_components/_sector_page-builder' %}
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <h2>Who we work with...</h2>
+            </div>
+            {% include '_components/_logo-carousel2' %}
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <div>
+                <h2>What our clients say about us...</h2>
+            </div>
+            {% include '_components/_testimonials' %}
+        </div>
+    </section>
+
+        {% include '_components/_faq-section' %}
+
+
+</div>
+{% endblock %}

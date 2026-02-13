@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - d8ccd2a3-51c3-4a4d-9111-5bde54291462 # Homepage
+handle: homepage
+maxAuthors: 1
+name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: index.html
+    uriFormat: __home__
+type: single

@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - ff88a52b-69c5-4ea2-bf35-af53cc987140 # Team Page
+  - 05bb7420-f41b-43c3-aeab-000a50cf8e8a # Staff Member
+handle: team
+maxAuthors: 1
+name: Team
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: _sections/team/_entry.html
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 0926fb03-c2f4-41c0-8708-1ceebc96bca7
+type: structure

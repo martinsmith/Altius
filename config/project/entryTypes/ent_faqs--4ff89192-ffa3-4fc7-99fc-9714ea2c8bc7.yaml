@@ -1,0 +1,53 @@
+color: null
+description: null
+fieldLayouts:
+  01598b42-f23e-4924-87a6-732091b0348a:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-08-22T14:09:41+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: fd_question
+            instructions: null
+            label: Question
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3f037382-6c40-497b-b884-61828aab64d1
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-08-22T14:09:41+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: bf1a60fc-fc10-4ed8-95b0-95abbb63e752 # Super Simple Text
+            handle: fd_answer
+            instructions: null
+            label: Answer
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5eaef9c3-1f48-47e9-87e4-358f44575b26
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 652e7f5c-29bf-47e5-8409-30c4bbac8e11
+        userCondition: null
+handle: ent_faqs
+hasTitleField: false
+icon: messages-question
+name: FAQs
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

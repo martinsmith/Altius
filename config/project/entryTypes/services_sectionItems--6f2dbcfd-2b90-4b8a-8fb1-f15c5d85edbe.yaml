@@ -1,0 +1,237 @@
+color: null
+description: null
+fieldLayouts:
+  a2d4aae3-86c6-4806-a8f6-fcd6ba74a1dc:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            required: true
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2adfc260-d39b-495a-984d-c6959f905140
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: d64aaf7c-ec5c-4963-8648-2bb4ab20fdc6
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 0392e2de-2bdb-4e50-ba2c-0a715e112283
+            handle: heroImage
+            instructions: null
+            label: 'Hero Image'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 80bfa487-d7f2-44a0-b1dd-300eb79f827c
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroTitle
+            instructions: null
+            label: 'Hero Title'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 81fe5a0d-a968-40a3-9161-f632c8d6aa49
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroText
+            instructions: null
+            label: 'Hero Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22c36651-08ec-4414-88e7-e205f57b667a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 7fc6a34e-97ac-469d-a41f-ed8f41cfb6d0
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 828d697f-6d07-4af1-9b83-fef2467ee74d # Text Block
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a51d7cee-658d-4e88-aa1b-011775da8ea7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: e8ef864f-df6d-49e7-b44c-cd697a46f9f5
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 45a8bbed-1edd-4c3e-a925-95ea582c86bd # Information Blocks
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34858313-bd62-4cf4-ac3e-69d4b0e191af
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 26aa36b4-eaee-4273-b2d3-c9a4f208aeee
+            userCondition: null
+          -
+            dateAdded: '2025-08-22T14:16:10+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b5798b01-f931-4835-937e-c740ea058afa # FAQ Section
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a9160c7-2a0f-4f2c-9366-27badea38ec7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-08-22T14:12:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 824ff346-1433-4f61-9c49-7e5e1e397844
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: af51211b-76af-4f5e-a5a0-478a6bf4ae54 # Full Width Image
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 117cf15e-0f56-4786-a15b-128e312c69c0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6bd8b8d7-322b-4e39-965a-e9a0c6625d24
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ac78da8b-67b4-49b7-adb7-94c473d427bf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-23T13:33:15+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 793d9983-213a-4cbd-ad28-8d2f692eee3a # Alternative Schema
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22203ed4-da0f-4aff-8d7d-e66ad6b16ebb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-23T10:47:39+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 97c83234-c29d-4007-9c40-ad6c54a1cfb6
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4db9cdba-e24d-4d7f-970a-764bea485afa
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: 4958d7c7-dd07-4116-80d5-99ec79cece99
+        userCondition: null
+handle: services_sectionItems
+hasTitleField: true
+icon: null
+name: 'Add a New Service'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

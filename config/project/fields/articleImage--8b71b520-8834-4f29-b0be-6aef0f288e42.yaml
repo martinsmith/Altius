@@ -1,0 +1,36 @@
+columnSuffix: null
+contentColumnType: string
+handle: articleImage
+instructions: null
+name: 'Article Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds: null
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:49d3d537-a9f7-479a-a98f-12f75fbef05a' # Images
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: thumbs
+  restrictFiles: false
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:825b0c74-ad3e-48ee-a297-fd23b8219ee1'
+  restrictedLocationSubpath: null
+  selectionLabel: 'Add an Image'
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:49d3d537-a9f7-479a-a98f-12f75fbef05a' # Images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" href="/_dist/css/main.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+		
+		{% block pageCss %}
+
+		{% endblock %}
+		<link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/favicon/site.webmanifest">
+		<script defer src="/_dist/js/main.js"> </script>
+
+	</head>
+	<body>
+		<div id="smooth-content">
+			<div>
+				<div>
+					<div>
+						<a href="/">
+							<img src="/images/altius-lifts.svg" alt="Altius Lifts - Manchester">
+						</a>
+					</div>
+					<nav role="navigation">
+						<ul>
+							<li><a href="/">Home</a></li>
+							<li><a href="/services" aria-haspopup="true">Services</a>
+								<ul aria-label="submenu">
+									{% set level2Entries = craft.entries.section('services').level(2) %}
+									{% for entry in level2Entries %}
+									<li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+									{% endfor %}
+								</ul>
+							</li>
+							<li><a href="/why-us">Why Us</a></li>
+							<li><a href="/our-directors">Our Directors</a></li>
+							<li><a href="/contact">Contact</a></li>
+							<li><a href="/careers">Careers</a></li>
+						</ul>
+					</nav>
+					<div>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					<div>
+						<a href="/contact">Get in Touch</a>
+					</div>
+					<div>Call: <a href="tel:01614258441">0161 425 8441</a></div>
+				</div>
+			</div>
+
+            {% block content %}
+
+
+
+
+
+            {% endblock %}
+
+			<section>
+				<div>
+					{% include '_components/_location' %}
+				</div>
+			</section>
+
+            <footer>
+                <div>
+					<div>
+						<h2>Menu</h2>
+						<nav>
+							<ul>
+								<li><a href="/">Home</a></li>
+								<li><a href="/services">Services</a></li>
+								<li><a href="/why-us">Why Us</a></li>
+								<li><a href="/our-directors">Our Directors</a></li>
+								<li><a href="/contact">Contact</a></li>
+								<li><a href="/careers">Careers</a></li>
+								<li><a href="/articles">Articles</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div>
+						<h2>Accreditiations & Bodies</h2>
+						<ul>
+							<li><img src="/images/ISO90011-640w.webp" alt=""></li>
+							<li><img src="/images/20230120_172751112_iOS-640w.webp" alt=""></li>
+							<li><img src="/images/SafeContractor.png" alt=""></li>
+							<li><img src="/images/citb.png" alt=""></li>
+							<li><img src="/images/cscs.png" alt=""></li>
+							<li><img src="/images/liea-member.jpg" alt=""></li>
+							<li><img src="/images/Largesupporteroftheliftindustrypicture-640w.png" alt=""></li>
+						</ul>
+					</div>
+					<div>
+						<h2>On Social...</h2>
+						<ul>
+							<li><a href="https://www.linkedin.com/company/caledonian-lifts-manchester/" target="_blank">Linkedin</a></li>
+							<li><a href="https://web.whatsapp.com/send?phone=4401614258441" target="_blank">WhatsApp</a></li>
+							{% apply enkode_emails %}
+							<li><a href="mailto:admin@caledonianliftsmanchester.co.uk">Email</a></li>
+							{% endapply %}
+						</ul>
+					</div>
+                    <p>Copyright &copy; {{ "now" | date("Y") }} Altius Lifts Ltd. All Rights Reserved.</p>
+                </div>
+            </footer>
+		</div>
+
+	</body>
+</html>

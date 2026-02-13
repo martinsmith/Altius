@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: serviceCards
+instructions: null
+name: 'Service Cards'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: null
+  entryTypes:
+    - 23abf921-b725-4c4a-8185-603f91a9a9d7 # Service Cards Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

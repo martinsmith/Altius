@@ -1,0 +1,21 @@
+columnSuffix: null
+handle: infoBlock
+instructions: null
+name: 'Sector Page Builder - Info Blocks - Blocks'
+searchable: false
+settings:
+  contentTable: ''
+  createButtonLabel: 'New Sector'
+  entryTypes:
+    - 04918528-c76c-4e73-9f1c-5aeae2c2db87 # Sector Page Builder - Info Blocks - Blocks Block
+  includeTableView: false
+  maxEntries: null
+  minEntries: null
+  pageSize: 50
+  propagationKeyFormat: null
+  propagationMethod: all
+  showCardsInGrid: true
+  viewMode: cards
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

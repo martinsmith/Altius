@@ -1,0 +1,21 @@
+columnSuffix: jpqfitjo
+handle: blockText2
+instructions: null
+name: 'Sector Page Builder - Info Blocks - Blocks - Block Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: dc570c1c-57f3-44bc-b8c9-474ecd8c829c # Info Blocks
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

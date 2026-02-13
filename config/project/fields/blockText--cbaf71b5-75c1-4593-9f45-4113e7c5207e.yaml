@@ -1,0 +1,21 @@
+columnSuffix: mfvnidsl
+handle: blockText
+instructions: null
+name: 'Information Blocks - Information Block - Block Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: cae01097-4833-408c-a8b1-bd3f75a616c7 # Ultra Basic
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

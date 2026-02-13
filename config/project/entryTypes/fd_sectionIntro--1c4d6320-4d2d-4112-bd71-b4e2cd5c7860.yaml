@@ -1,0 +1,63 @@
+color: null
+fieldLayouts:
+  03afb131-e7f7-4257-b319-f0ad1f6b9841:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-27T13:42:27+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b81756d2-8117-4a1d-bfdd-30b245a78de4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-27T13:47:13+00:00'
+            elementCondition: null
+            fieldUid: bf1a60fc-fc10-4ed8-95b0-95abbb63e752 # Super Simple Text
+            handle: null
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 35b0fc41-5883-4a79-910c-16270c353b3d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 4a4842b6-a72f-4a96-aa15-99d328380503
+        userCondition: null
+handle: fd_sectionIntro
+hasTitleField: true
+icon: ''
+name: 'Section Intro'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 05b24267-ef92-48a8-870a-178896a54ba3 # Contact
+handle: contact
+maxAuthors: 1
+name: Contact
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: contact.html
+    uriFormat: contact
+type: single

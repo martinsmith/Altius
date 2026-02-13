@@ -1,0 +1,15 @@
+<div>
+    {% set sectorsRef = craft.entries.section('homepage').one() %}
+    <ul>
+        {% for row in sectorsRef.sectors %}
+            {% if row.linkToPage|length %}
+                <li>
+                    <a href="{{ row.linkToPage.one().url }}">{{ row.sector }}</a></li>
+            {% else %}
+                <li>
+                    <span>{{ row.sector }}</span>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>

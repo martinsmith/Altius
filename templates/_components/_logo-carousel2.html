@@ -1,0 +1,10 @@
+{% set clientsRef = craft.entries.section('homepage').one() %}
+    <div>
+        <ul>
+            {% set logos = clientsRef.clientLogos.all() %}
+            {% set randomLogos = shuffle(logos) %}
+            {% for logo in randomLogos %}
+                <li><img src="{{ logo.url }}" alt="{{ logo.title }}"></li>
+            {% endfor %}
+        </ul>
+    </div>

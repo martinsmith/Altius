@@ -1,0 +1,76 @@
+fieldLayouts:
+  a2beec7a-7136-46a2-81fe-08c5e1f00fa7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 63cbb91c-0cf2-40b7-954d-51ca66bc31cf
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: af51211b-76af-4f5e-a5a0-478a6bf4ae54 # Full Width Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f2489846-dbe7-4a0a-9205-89f19e5f9dae
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: bf066010-2f8e-42f2-ba96-1b1ce0b6559e
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 98ba4066-3226-4e5f-b54c-f5e9e3e71062 # SEO Information
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dd43a489-1635-4036-8616-da823ccefc88
+            userCondition: null
+            warning: null
+            width: 100
+        name: 'SEO Information'
+        uid: 58ba133c-8bcf-4693-996f-a6b74330e5c8
+        userCondition: null
+handle: contact
+hasTitleField: true
+name: Contact
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,6 @@
+headingLevels: false
+name: 'Ultra Basic'
+toolbar:
+  - bold
+  - italic
+  - link

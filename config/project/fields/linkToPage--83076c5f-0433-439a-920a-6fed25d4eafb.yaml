@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: linkToPage
+instructions: null
+name: 'Service Cards - Link to page'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Link to a page'
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:9762ed7d-306c-4d1b-bf4b-12cac5c241b0' # Services
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

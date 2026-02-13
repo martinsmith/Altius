@@ -1,0 +1,54 @@
+{
+  "name": "putyourlightson/craft-dashboard-begone",
+  "description": "Removes the dashboard and redirects users to entries.",
+  "version": "3.0.0",
+  "type": "craft-plugin",
+  "homepage": "https://github.com/putyourlightson/craft-dashboard-begone",
+  "license": "MIT",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "dashboard"
+  ],
+  "require": {
+    "php": "^8.2",
+    "craftcms/cms": "^5.0"
+  },
+  "require-dev": {
+    "craftcms/ecs": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "putyourlightson\\dashboardbegone\\": "src/"
+    }
+  },
+  "scripts": {
+    "phpstan": "phpstan --ansi --memory-limit=1G",
+    "check-cs": "ecs check --ansi",
+    "fix-cs": "ecs check --fix --ansi"
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "pestphp/pest-plugin": true,
+      "yiisoft/yii2-composer": true
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "support": {
+    "docs": "https://putyourlightson.com/plugins/dashboard-begone",
+    "source": "https://github.com/putyourlightson/craft-dashboard-begone",
+    "issues": "https://github.com/putyourlightson/craft-dashboard-begone/issues"
+  },
+  "extra": {
+    "name": "Dashboard Begone",
+    "handle": "dashboard-begone",
+    "developer": "PutYourLightsOn",
+    "developerUrl": "https://putyourlightson.com/",
+    "changelogUrl": "https://raw.githubusercontent.com/putyourlightson/craft-dashboard-begone/v3/CHANGELOG.md",
+    "class": "putyourlightson\\dashboardbegone\\DashboardBegone"
+  }
+}

@@ -1,0 +1,22 @@
+columnSuffix: null
+handle: blockLink
+instructions: 'Use this only if you want the block to link to another page on the website.'
+name: 'Information Blocks - Information Block - Block Link'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: 'Add a Link'
+  showCardsInGrid: false
+  showSiteMenu: true
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

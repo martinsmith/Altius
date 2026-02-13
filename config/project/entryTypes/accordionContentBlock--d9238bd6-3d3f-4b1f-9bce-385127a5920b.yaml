@@ -1,0 +1,79 @@
+color: null
+fieldLayouts:
+  68bfb258-1943-4c06-86fa-e4e1a61fd68c:
+    cardView:
+      - 'layoutElement:d62a6c01-f886-4286-a3ad-183db38647c2'
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:46:12+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: d3bcc443-7ee0-4c79-879b-592f63697b5f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:46:12+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: accordionTitle
+            instructions: null
+            label: Title
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d62a6c01-f886-4286-a3ad-183db38647c2
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:46:12+00:00'
+            elementCondition: null
+            fieldUid: f028fab8-86ea-4a6d-a9ee-5aa62b806de9
+            handle: accordionText
+            instructions: null
+            label: Content
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5c4cd36f-fc40-416f-9048-7346edcab3a0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ad104ad6-fa5e-4f36-a4b4-39c272225c31
+        userCondition: null
+handle: accordionContentBlock
+hasTitleField: false
+icon: null
+name: 'Sector Page Builder - Accordion - Accordion Content Block'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

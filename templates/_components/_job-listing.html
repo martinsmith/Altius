@@ -1,0 +1,15 @@
+    <div>
+        <ul>
+            {% for job in jobEntries %}
+                <li>
+                    <a href="{{ job.url }}">
+                        <h2>{{ job.title }}</h2>
+                        <p>{{ job.fd_jobType.label }}</p>
+                        <p>{{ job.fd_salary }}</p>
+                        <p>{{ job.fd_based }}</p>
+                        <span>Apply Now</span>
+                    </a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>

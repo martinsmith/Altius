@@ -1,0 +1,59 @@
+{
+  "name": "miranj/craft-obfuscator",
+  "description": "Adds a Twig filter to obfuscate emails using Hivelogic Enkoder.",
+  "type": "craft-plugin",
+  "version": "1.2.0",
+  "keywords": [
+    "craft-plugin",
+    "craftcms",
+    "email",
+    "encode",
+    "obfuscate",
+    "enkoder"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Miranj",
+      "homepage": "https://miranj.in"
+    }
+  ],
+  "support": {
+    "docs": "https://github.com/miranj/craft-obfuscator/blob/v1/README.md",
+    "issues": "https://github.com/miranj/craft-obfuscator/issues",
+    "source": "https://github.com/miranj/craft-obfuscator"
+  },
+  "require": {
+    "craftcms/cms": "^3.0 || ^4.0 || ^5.0",
+    "php": "^7.2.5 || ^8.0"
+  },
+  "require-dev": {
+    "craftcms/rector": "dev-main",
+    "craftcms/phpstan": "dev-main"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+      "allow-plugins": {
+          "yiisoft/yii2-composer": true,
+          "craftcms/plugin-installer": true
+      }
+  },
+  "autoload": {
+    "classmap": [
+      "lib/StandalonePHPEnkoder.php"
+    ],
+    "psr-4": {
+      "miranj\\obfuscator\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "Obfuscator",
+    "handle": "obfuscator",
+    "changelogUrl": "https://raw.githubusercontent.com/miranj/craft-obfuscator/v1/CHANGELOG.md",
+    "class": "miranj\\obfuscator\\Obfuscator"
+  },
+  "scripts": {
+    "phpstan": "phpstan --memory-limit=1G"
+  }
+}

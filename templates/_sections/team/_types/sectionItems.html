@@ -1,0 +1,59 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/team.css">
+{% endblock %}
+
+{% block content %}
+<div>
+
+    <section>
+        <div>
+            <div>
+                <h1><a href="{{ entry.parent.url }}">Meet the Team</a> - {{ entry.title }}</h1>
+            </div>
+                <div>
+                    <h2>{{ entry.title }}</h2>
+                    <p>{{ entry.staffPosition }}</p>
+                    <p>Telephone: <a href="tel:{{ entry.staffContactNumber }}">{{ entry.staffContactNumber }}</a></p>
+                    {% apply enkode_emails %}
+                    <p><a href="mailto:{{ entry.staffEmailAddress }}">Send Email</a></p>
+                    {% endapply %}
+                </div>
+                <div>
+                    {{ entry.textBlock }}
+                </div>
+                {% if entry.staffPhoto|length %}
+                <div>
+                    <img src="{{ entry.staffPhoto.one().url }}" alt="">
+                </div>
+                {% endif %}
+                <div>
+                    <h2>Other Management Staff</h2>
+                    {% set level2Entries = craft.entries.section('team').level(2).id('not ' ~ entry.id) %}
+                    <ul>
+                        {% for entry in level2Entries %}
+                        <li>
+                                <div>
+                                    <h3><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
+                                    {% if entry.staffPosition|length %}
+                                    <p>{{ entry.staffPosition }}</p>
+                                    {% endif %}
+                                </div>
+                                {% if entry.staffPhoto|length %}
+                                <div>
+                                    <a href="{{ entry.url }}">
+                                        <img src="{{ entry.staffPhoto.one().url }}" alt="">
+                                    </a>
+                                </div>
+                                {% endif %}
+
+                        </li>
+                        {% endfor %}
+                    </ul>
+            </div>
+            </div>
+    </section>
+
+</div>
+{% endblock %}

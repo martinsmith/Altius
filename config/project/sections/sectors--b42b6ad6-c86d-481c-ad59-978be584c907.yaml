@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 07c7a1e1-6257-42d1-9d3c-9471a5226e26 # Add a New Sector
+  - 5e7a9fb8-2b6a-4050-9a18-629d65da8ef1 # Overview Page
+handle: sectors
+maxAuthors: 1
+name: Sectors
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: _sections/sectors/_entry.html
+    uriFormat: 'sector/{slug}'
+structure:
+  maxLevels: 2
+  uid: 370020cf-350e-43f8-81b4-a62f99267456
+type: structure

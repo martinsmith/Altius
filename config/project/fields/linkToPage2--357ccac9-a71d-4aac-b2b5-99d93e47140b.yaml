@@ -1,0 +1,23 @@
+columnSuffix: null
+handle: linkToPage2
+instructions: null
+name: 'Sectors - Link to page'
+searchable: false
+settings:
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  selectionLabel: Select
+  showCardsInGrid: false
+  showSiteMenu: false
+  sources:
+    - 'section:b42b6ad6-c86d-481c-ad59-978be584c907' # Sectors
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

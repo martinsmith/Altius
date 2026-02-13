@@ -1,0 +1,23 @@
+{% set testimonialsRef = craft.entries.section('homepage').one() %}
+<div>
+    <div>
+        <div>
+            {% for testimonial in testimonialsRef.testimonials.all() %}
+            <div>
+                <blockquote>
+                    <div>
+                    <p>{{ testimonial.quote }}</p>
+                    </div>
+                    <cite>
+                        {% for person in testimonial.person %}
+                        {{ person.name }} - <span>{{ person.company }}</span>
+                        {% endfor %}
+                    </cite>
+                </blockquote>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+</div>

@@ -1,0 +1,50 @@
+
+        <div>
+{% for block in entry.mx_contentBlock.all() %}
+{% switch block.type %}
+
+{% case 'subSectionIntro' %}
+<div>
+  <h2>{{ block.sectionTitle }}</h2>
+  {{ block.sectionIntro }}
+</div>
+
+    {% case 'textImage' %}
+
+          <div>
+            <div>
+                <h2>{{ block.title }}</h2>
+                {{ block.fd_text }}
+            </div>
+            {% if block.articleImage|length %}
+            <div>
+              <img src="{{ block.articleImage.one.url() }}" alt="{{ block.articleImage.one.title }}">
+            </div>
+            {% endif %}
+          </div>
+
+          {% case 'accordion' %}
+
+          <ul>
+            {% for item in block.accordionContent %}
+            <li>
+              <div>
+                {{ item.accordionTitle }}
+              </div>
+              <div>
+                <div>{{ item.accordionText }}</div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+
+
+    {% case 'bigParallaxImage' %}
+    {% if block.image.one() %}
+    <div>
+      <div style="background-image: url('{{ block.image.one().url() }}');"></div>
+  </div>
+    {% endif %}
+{% endswitch %}
+{% endfor %}
+        </div>

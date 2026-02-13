@@ -1,0 +1,101 @@
+fieldLayouts:
+  5177090a-d781-4d4f-99b6-a9b1adbbcdb2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 9df8c7d5-113c-49ac-b5d7-30964445db3a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: b8434bfe-19cf-43da-9e53-62f49d867895
+            userCondition: null
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            fieldUid: 0392e2de-2bdb-4e50-ba2c-0a715e112283
+            handle: heroImage
+            instructions: null
+            label: 'Hero Image'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 22caab86-cd67-4a74-9b17-0fc8900c2e54
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroTitle
+            instructions: null
+            label: 'Hero Title'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3690b7e5-fad5-47d1-b043-a0f0fffa4569
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            fieldUid: aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+            handle: heroText
+            instructions: null
+            label: 'Hero Text'
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 64b954df-34be-4be6-8392-0bd77027667d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-09-17T13:45:29+00:00'
+            elementCondition: null
+            type: craft\fieldlayoutelements\HorizontalRule
+            uid: 8af4a94c-0491-4f84-80b4-6c1806809ef4
+            userCondition: null
+        name: Content
+        uid: e2f1c80c-4d6d-4fd4-af25-e6774ed5296e
+        userCondition: null
+handle: sectionIntroPage
+hasTitleField: true
+name: 'Overview Page'
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 2
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,33 @@
+{# FAQ Section Component #}
+{% if entry.cb_faqSection.fd_sectionTitle|length %}
+        <section>
+            <div>
+                    <div>
+                        {% if entry.cb_faqSection.fd_sectionTitle %}
+                            <h2>{{ entry.cb_faqSection.fd_sectionTitle }}</h2>
+                        {% endif %}
+                        {% if entry.cb_faqSection.fd_sectionIntro %}
+                            <div>
+                                {{ entry.cb_faqSection.fd_sectionIntro }}
+                            </div>
+                        {% endif %}
+                    </div>
+                    {% if entry.cb_faqSection.mx_faqs|length %}
+                        <ul>
+                            {% for faq in entry.cb_faqSection.mx_faqs %}
+                                <li>
+                                    <div>
+                                        {{ faq.fd_question }}
+                                    </div>
+                                    <div>
+                                        <div>
+                                            {{ faq.fd_answer }}
+                                        </div>
+                                    </div>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </section>
+{% endif %}

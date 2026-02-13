@@ -1,0 +1,40 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/team.css">
+{% endblock %}
+
+{% block content %}
+<div>
+
+    <section>
+        <div>
+            <div>
+                <h1>{{ entry.title }}</h1>
+            </div>
+            <div>
+                {% set level2Entries = craft.entries.section('team').level(2) %}
+                <ul>
+                    {% for entry in level2Entries %}
+                    <li>
+                        <a href="{{ entry.url }}">
+                            <div>
+                                <h2>{{ entry.title }}</h2>
+                                {% if entry.staffPosition|length %}
+                                <p>{{ entry.staffPosition }}</p>
+                                {% endif %}
+                            </div>
+                            {% if entry.staffPhoto|length %}
+                            <div>
+                                <img src="{{ entry.staffPhoto.one().url }}" alt="">
+                            </div>
+                            {% endif %}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
+{% endblock %}

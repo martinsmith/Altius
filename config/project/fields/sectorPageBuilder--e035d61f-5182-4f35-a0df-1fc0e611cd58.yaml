@@ -1,0 +1,20 @@
+columnSuffix: null
+contentColumnType: string
+handle: sectorPageBuilder
+instructions: null
+name: 'Sector Page Builder'
+searchable: false
+settings:
+  entryTypes:
+    - 5d49fa5b-f75d-4770-a7c1-932c914abc23 # Accordion
+    - 9a61ea49-f29c-419d-a6cf-f130c95d32a8 # Info Blocks
+    - 9ed5cd74-29c0-4c5d-8808-b6112f366f16 # New Sub-Section Intro
+    - d875cc48-f7f2-4c0e-876d-754ae446746a # Big Parallax Image
+  maxEntries: null
+  minEntries: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  viewMode: blocks
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

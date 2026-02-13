@@ -1,0 +1,21 @@
+columnSuffix: jdiwdvtj
+handle: quote
+instructions: null
+name: 'Testimonials - Quote'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: f68f3e2f-2164-4b5d-8a45-44af27a92365 # Testimonials
+  createButtonLabel: null
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: false
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

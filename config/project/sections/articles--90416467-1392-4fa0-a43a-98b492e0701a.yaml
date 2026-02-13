@@ -1,0 +1,31 @@
+defaultPlacement: beginning
+enableVersioning: true
+entryTypes:
+  - 58abb35d-e3ad-40c1-a821-525460e8cd08 # New Article
+  - 25f06514-2327-4672-86ac-e0a60aba0034 # Articles Landing Page
+handle: articles
+maxAuthors: 1
+name: Articles
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: _sections/articles/_entry.html
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 785b8e7c-fb18-4562-b5d0-e3b54497a107
+type: structure

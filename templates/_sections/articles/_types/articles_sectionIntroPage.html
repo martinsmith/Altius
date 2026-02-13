@@ -1,0 +1,48 @@
+{% extends "_layouts/layout" %}
+
+{% block content %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/articles.css">
+{% endblock %}
+
+<div>
+
+
+
+    <div>
+
+        <section>
+            <div>
+                <div>
+                    <h1>Articles</h1>
+                </div>
+                <div>
+                    {% set level2Entries = craft.entries.section('articles').level(2) %}
+                    <ul>
+                        {% for entry in level2Entries %}
+                        <li>
+                            <a href="{{ entry.url }}">
+                                <div>
+                                    <h2>{{ entry.title }}</h2>
+                                    <p>{{ wordLimit(entry.articleText, 20, ' ...') }}</p>
+                                </div>
+                                {% if entry.articleImage|length %}
+                                <div>
+                                    <span style="background-image: url('{{ entry.articleImage.one.url() }}');"></span>
+                                </div>
+                                {% endif %}
+                                <p>Read More...</p>
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        {% include '_components/_parallax' %}
+
+    </div>
+</div>
+{% endblock %}

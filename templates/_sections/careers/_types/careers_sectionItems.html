@@ -1,0 +1,61 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/careers.css">
+{% endblock %}
+
+{% block content %}
+<div>
+    <section>
+        <div>
+            <div>
+                <h2>{{ entry.title }}</h2>
+            </div>
+            <div>
+                {{ entry.fd_jobDescription }}
+            <h2>More Information</h2>
+            <ul>
+                <li>Based: {{ entry.fd_based }}</li>
+                <li>Contract: {{ entry.fd_jobType }}</li>
+                <li>Working Location: {{ entry.fd_workingLocation }}</li>
+                </ul>
+                {% if entry.fd_availability %}
+                <h3>Hours of Work</h3>
+                    <ul>
+                        {% for row in entry.fd_availability %}
+                        <li>{{ row.availability }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </ul>
+
+            {% if entry.fd_jobBenefits %}
+            <h3>Job Benefits</h3>
+            <ul>
+                {% for row in entry.fd_jobBenefits %}
+                <li>{{ row.benefit }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+
+            {% if entry.fd_criteria %}
+            <h3>Job Criteria</h3>
+                {% for row in entry.fd_criteria %}
+                <p>{{ row.criteria }}</p>
+                {% endfor %}
+            {% endif %}
+        </div>
+        <div>
+            {% if entry.fd_email and entry.fd_buttonText %}
+                <a href="mailto:{{ entry.fd_email }}">{{ entry.fd_buttonText }}</a>
+            {% elseif entry.fd_email %}
+                <a href="mailto:{{ entry.fd_email }}">Please CLICK HERE to send your C.V. along with a cover note.</a>
+            {% elseif entry.fd_buttonText %}
+                <a href="mailto:scott.crossley@caledonianliftsmanchester.co.uk">{{ entry.fd_buttonText }}</a>
+            {% else %}
+                <a href="mailto:scott.crossley@caledonianliftsmanchester.co.uk">Please CLICK HERE to send your C.V. along with a cover note.</a>
+            {% endif %}
+        </div>
+    </section>
+</div>
+{% endblock %}

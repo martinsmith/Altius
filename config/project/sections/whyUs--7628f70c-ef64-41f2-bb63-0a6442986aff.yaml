@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  - 42542baa-070e-4f48-b5ce-fbd2819883a5 # Why Us
+handle: whyUs
+maxAuthors: 1
+name: 'Why Us'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+propagationMethod: all
+siteSettings:
+  fe4e75c8-43fa-445f-a134-622af7819f98: # Caledonian Lifts
+    enabledByDefault: true
+    hasUrls: true
+    template: why-us.html
+    uriFormat: why-us
+type: single

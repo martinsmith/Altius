@@ -1,0 +1,37 @@
+{% extends "_layouts/layout" %}
+
+{% block pageCss %}
+<link rel="stylesheet" href="/_dist/css/pages/careers.css">
+{% endblock %}
+
+{% block content %}
+<div>
+
+    <div>
+        <div style="background-image: url('{{ entry.heroImage.one.url() }}')">
+        </div>
+        <div></div>
+        <div>
+            <h1>{{ entry.heroTitle }}</h1>
+            <p>{{ entry.heroText }}</p>
+        </div>
+    </div>
+
+{% set jobEntries = craft.entries.section('careers').level(2).all() %}
+    <section>
+        <div>
+            <div>
+                {% if jobEntries|length > 0 %}
+                    <h2>{{ entry.introHeader }}</h2>
+                {% else %}
+                    <p>Unfortunately we are not recruiting at the moment but please do check back soon.</p>
+                {% endif %}
+            </div>
+            {% include '_components/_job-listing' %}
+        </div>
+    </section>
+
+
+
+</div>
+{% endblock %}

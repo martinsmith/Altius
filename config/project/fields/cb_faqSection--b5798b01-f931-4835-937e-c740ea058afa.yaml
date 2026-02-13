@@ -1,0 +1,120 @@
+columnSuffix: null
+handle: cb_faqSection
+instructions: null
+name: 'FAQ Section'
+searchable: false
+settings:
+  fieldLayouts:
+    __assoc__:
+      -
+        - 3ef0693e-e803-4fb6-b6f7-e4b2c9e71524
+        -
+          __assoc__:
+            0:
+              - tabs
+              -
+                -
+                  __assoc__:
+                    1:
+                      - uid
+                      - 22f410b2-467f-49a1-a27c-eae6767bf866
+                    4:
+                      - elements
+                      -
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - fd_sectionTitle
+                            2:
+                              - label
+                              - 'Section Title'
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-08-22T14:15:49+00:00'
+                            11:
+                              - uid
+                              - 3203d49d-d2a9-40ea-85da-75aa195479af
+                            14:
+                              - fieldUid
+                              - aea2570e-71e8-49d8-bf72-d4c2bb30ce4b # Plain Text
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            1:
+                              - handle
+                              - fd_sectionIntro
+                            2:
+                              - label
+                              - 'Section Intro'
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-08-22T14:15:49+00:00'
+                            11:
+                              - uid
+                              - 36040274-6b7e-4906-841d-494ebc7d6fe4
+                            14:
+                              - fieldUid
+                              - bf1a60fc-fc10-4ed8-95b0-95abbb63e752 # Super Simple Text
+                        -
+                          __assoc__:
+                            0:
+                              - type
+                              - craft\fieldlayoutelements\CustomField
+                            6:
+                              - required
+                              - false
+                            7:
+                              - providesThumbs
+                              - false
+                            8:
+                              - includeInCards
+                              - false
+                            9:
+                              - width
+                              - 100
+                            10:
+                              - dateAdded
+                              - '2025-08-22T14:15:49+00:00'
+                            11:
+                              - uid
+                              - 9d93457b-5ef9-4db6-87fb-afe2faa47b42
+                            14:
+                              - fieldUid
+                              - 5e98dd89-e073-4bda-890e-36b647288eb6 # FAQs
+            3:
+              - cardThumbAlignment
+              - end
+  viewMode: grouped
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\ContentBlock
